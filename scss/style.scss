@@ -1,0 +1,10 @@
+/*
+	The first @import will import <scss.sassOpts.includePaths>/_bootstrap.scss; (Do you still remember includePaths that you should pay attention to?)
+    The second @import will import <scss.sassOpts.includePaths>/bootstrap/_theme.scss
+*/
+@import "bootstrap";
+@import "bootstrap/theme";
+
+textarea {
+   resize: none;
+}
